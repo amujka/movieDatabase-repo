@@ -1,4 +1,9 @@
-Hello
+Small React web app that uses omdb api for fetching movies. 
+React - for building an app
+Redux - for state managment
+Axios - fetching data
+Framer Motion - Open source, production-ready animation library for React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
