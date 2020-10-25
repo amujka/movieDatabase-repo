@@ -1,0 +1,48 @@
+@import "../../../static/scss/variables.scss";
+.movieDetails {
+    margin: 0;
+    padding: 0;
+    color: $mainColor;
+@media screen and(min-width:768px) {
+   display: flex;
+}
+    img {
+        width: 100%;
+        @media screen and(min-width:768px) {
+            width:50%
+        }
+    }
+    &__info{
+// border: solid green 1px;
+   @media screen and(min-width:768px) {
+       padding-left: 1rem;
+   }
+    }
+    &__plot {
+        margin: 1rem 0;
+        border-top:solid 1px $backgroundColorSecondary;
+        text-align: justify;
+        padding: 5px 0;
+        p {
+            line-height: 1.4;
+        }
+    }
+    &__actors {
+        span {
+            font-size: 1rem;
+        }
+    }
+    &__infoGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        padding: 1rem 0;
+        gap: 10px;
+    }
+    &__genre,
+    span {
+        color: $secondaryColor;
+        font-size: 1.17rem;
+        font-weight: bold;
+    }
+    
+    }

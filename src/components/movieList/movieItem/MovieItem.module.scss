@@ -1,0 +1,30 @@
+ @import '../../../static/scss/variables.scss';
+ a {
+     text-decoration: none;
+ }
+ .movieItem {
+     height: 100%;
+     border: solid $backgroundColorSecondary 1px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+     transition: 0.5s;
+    
+     @media screen and (min-width:768px) {
+         margin-bottom: 0;
+         font-size: 1.5rem;
+     }
+     &__poster {
+         width: 50%;
+     }
+     &__info {
+         padding: 0 5px;
+         text-align: center;
+         color: $mainColor;
+         width: 100%;
+     }
+     &:hover {
+         background-color: $backgroundColorSecondary;
+     }
+ }
