@@ -4,8 +4,9 @@ import classes from "./MovieItem.module.scss";
 import { connect } from "react-redux";
 import { fetchSingleMovie } from "../../../redux/actions/fetchSingleMovieAction";
 import { Link } from "react-router-dom";
+//SINGLE MOVIE  ITEM IN MOVIE LIST
 const MovieItem = ({ movie, fetchSingleMovie }) => {
-  //const [movieId, setMovieId] = useState("");
+  
   //console.log(movie);
   const handleClick = (id) => {
     //console.log(id);
